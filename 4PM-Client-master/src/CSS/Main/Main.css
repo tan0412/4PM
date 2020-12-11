@@ -1,0 +1,18 @@
+.Main{
+    position: absolute;
+    background-color: whitesmoke;
+    width: calc(100% - 12.5em);
+    overflow-y: auto;
+    right: 0;
+    transition: 0.75s ease-in-out;
+}
+@media screen and (max-width: 800px){
+    .Main{
+        width: calc(100% - 8em);
+    }
+}
+/* @media screen and (max-width: 600px) {
+    .Main{
+        width: calc(100%);
+    }
+} */

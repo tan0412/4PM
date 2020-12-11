@@ -1,0 +1,46 @@
+.Menu-Left{
+    background-color: #222;
+    height: 100%;
+    width: 12.5em;
+    position: fixed;
+    color: whitesmoke;
+}
+
+.Menu-Left a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.Menu-Left a:hover{
+    background-color: teal;
+}
+.sub-menu{
+    display:none;
+    position: inherit;
+    margin-left:30px;
+    top: 80px;
+    width: 170px;
+    background-color: #222;
+   
+}
+.drop-down:hover .sub-menu{
+    display: block;
+}
+
+@media screen and (max-width: 800px){
+    .Menu-Left{
+        width: 8em;
+    }
+}
+
+.nav-item{
+    padding: 1em;
+}
+.nav-item:hover{
+    background-color: teal;
+}
+/* @media screen and (max-width: 600px) {
+    .Menu-Left{
+        width: 0em;
+        visibility: hidden;
+    }
+} */

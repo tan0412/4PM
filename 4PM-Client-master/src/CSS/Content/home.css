@@ -1,0 +1,33 @@
+.Content{
+    background-color: whitesmoke;
+    padding: 2.5em 5em 2.5em 5em;
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    grid-column-gap: 5em;
+    grid-row-gap: 2.5em;
+    grid-auto-rows: min-content;
+    
+}
+
+.grid-item{
+    width: 100%;
+    border: 1px solid black;
+    height: 28vw;
+    text-decoration: none;
+}
+    .grid-item .grid-image{
+    width: 100%;
+    height: 25vw;
+    }
+    .grid-image img{
+    width: 100%;
+    height: 100%;
+    object-position: 50% 50%;
+    object-fit: cover;
+    }
+    .grid-item .porfolio-text{
+        height: 3vw;
+        display: flex;
+        align-items: center;
+        font-size: 1.6em
+    }
